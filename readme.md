@@ -1,7 +1,18 @@
-﻿# JOANNA
+# JOANNA
+
+## 自制操作系统
+
+参考《30天自制操作系统》写的练习。有一个图形界面，实现了内存管理，多任务，中断等。
 
 ## useage
 
+### 虚拟机
+
+	git clone https://github.com/laixintao/JOANNA
+
+到JOANNA文件夹中运行`make run`既可以使用QEMU来运行。
+
+###真机测试
 
 1. 使用HPUSBFW格式化U盘
 1. 使用  grubinst-1.1-bin-w32-2008-01-01安装grub到U盘（安装成功之后，会显示一个Partition table）
